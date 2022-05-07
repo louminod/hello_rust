@@ -34,4 +34,14 @@ pub(crate) fn run() {
 
     // disjoint
     println!("is {:?} a subset of {:?} ? {}", _1_5, _6_10, _1_5.is_disjoint(&_6_10));
+
+    // union, intersection
+    println!(
+        "items in either {:?} and {:?} are {:?}",
+        _2_8,
+        _6_10,
+        _2_8.union(&_6_10)
+    );
+
+    // difference, symmetric_difference = union - intersection
 }

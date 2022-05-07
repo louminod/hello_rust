@@ -1,5 +1,5 @@
-mod hashset;
+mod strings;
 
 fn main() {
-    hashset::run();
+    strings::run();
 }
